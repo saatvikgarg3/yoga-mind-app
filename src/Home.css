@@ -1,0 +1,124 @@
+.fulldiv {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(248, 244, 238);
+  }
+  
+  .upperdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start vertically */
+    margin-bottom: 20px;
+  }
+  
+  .yogaformindtext {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+    /* align-items: center; Center text horizontally */
+  }
+  
+  .maintext {
+    color: rgb(46, 46, 130);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    /* text-align: center; */
+  }
+  
+  .secondarytext {
+    color: rgb(97, 99, 99);
+    font-weight: 400;
+    padding-left: 10px;
+    /* text-align: center; */
+  }
+  
+  .name {
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  
+  .videodiv {
+    max-width: 100%; /* Set maximum width for responsiveness */
+    margin-left: 20px;
+  }
+  
+  .middlediv {
+    color: rgb(4, 204, 204);
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 100px;
+  }
+  .belowdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .image {
+    background-color: rgb(172, 170, 170);
+    border-radius: 50%;
+    padding: 20px; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image svg {
+    font-size: 2em; /* Adjust the size as needed */
+  }
+  
+  .text {
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+  }
+  
+  .btn {
+    margin-top: 20px;
+    color: #fff;
+    /* Set text color to white for better visibility */
+    background-color: rgb(241, 80, 80);
+    /* Reddish shade for the background */
+    padding: 10px 20px;
+    /* Add padding for better button appearance */
+    width: 170px;
+    height: 30px;
+    border: none;
+    /* Remove default border */
+    border-radius: 8px;
+    /* Add border radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+    /* Add smooth transition effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn:hover {
+    background-color: transparent;
+    /* Change background color on hover */
+    border: 2px solid rgb(241, 80, 80);
+    /* Add border on hover */
+    color: rgb(241, 80, 80);
+    /* Change text color on hover */
+  }
+  .question{
+    margin-top: 20px;
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: rgb(61, 35, 207);
+  }
+  

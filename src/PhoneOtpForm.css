@@ -1,0 +1,65 @@
+/* PhoneOtpForm.css */
+.phone-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .PhoneInput {
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 80%; /* Increase the width to 80% */
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .PhoneInputCountrySelect {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #d4d4d4;
+  }
+  
+  .PhoneInputInput {
+    border: none !important;
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .PhoneInputCountryIcon {
+    margin-top: -10px;
+    margin-right: 8px;
+  }
+  
+  .PhoneInputCountry {
+    font-size: 16px;
+  }
+  
+  .checkbox-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 4px auto;
+    /* margin-right: 100px; */
+    white-space: nowrap;
+    padding-left: 10px; /* Adjust padding as needed */
+  }
+  
+  .checkbox-container input {
+    margin-right: 8px;
+    margin-top: auto; /* Adjust margin-top to align vertically */
+  }
+  
+  .terms-label {
+    cursor: pointer;
+    color: #ec6464;
+  }
+
+  .checkboxchecker{
+    margin-top: 15px !important;
+  }
+  

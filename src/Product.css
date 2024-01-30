@@ -1,0 +1,156 @@
+/* Product.css */
+
+.fulldivproduct {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: rgb(248, 244, 238);
+  }
+  
+  .leftdiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Adjust the width as needed */
+    padding-right: 20px; /* Add right padding for separation */
+  }
+  
+  .yogaformindtext {
+    color: rgb(33, 33, 133);
+    font-size: 24px; /* Increase font size for emphasis */
+    font-weight: 700; /* Add bold for emphasis */
+    margin-bottom: 15px; /* Add bottom margin for separation */
+    margin-left: 2px;
+    margin-top: 18px;
+  }
+  
+  .yogaimage img {
+    width: 700px; /* Make the image fill its container */
+    height: 300px;
+    border-radius: 8px; /* Add border-radius for a rounded image */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .belowphototext {
+    margin-top: 20px; /* Add top margin for separation */
+  }
+  
+  .primarytext {
+    color: rgb(33, 33, 133);
+    font-size: 20px; /* Adjust font size for emphasis */
+    font-weight: 700; /* Add bold for emphasis */
+    margin-bottom: 10px; /* Add bottom margin for separation */
+  }
+  
+  .secondarytext {
+    color: rgb(97, 99, 99);
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+  
+  .rightdiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Adjust the width as needed */
+    padding-left: 20px; /* Add left padding for separation */
+  }
+  
+  .packagetext {
+    color: rgb(33, 33, 133);
+    font-size: 24px; /* Increase font size for emphasis */
+    font-weight: 700; /* Add bold for emphasis */
+    margin-bottom: 20px; /* Add bottom margin for separation */
+    margin-top: 20px;
+  }
+  
+  .packages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .pack {
+    background-color: rgb(33, 33, 133);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 60%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .pack-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    margin-bottom: 10px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  
+  .discounted-price {
+    color: #ff6347; /* Adjust the color for discounted price */
+    font-weight: bold;
+  }
+  .packright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buy-now {
+    background-color: rgb(241, 80, 80); /* Adjust the button color */
+    color: #fff;
+    /* padding: 10px 15px; */
+    margin-top: 4px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+  }
+  .buy-now:hover {
+    background-color: transparent;
+    /* Change background color on hover */
+    border: 2px solid rgb(241, 80, 80);
+    /* Add border on hover */
+    color: rgb(241, 80, 80);
+    /* Change text color on hover */
+  }
+  .belowrightdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px; /* Add top margin for separation */
+  }
+  
+  .secondaryfulldiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .firstsecondary,
+  .secondsecondary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add bottom margin for separation */
+  }
+  
+  .icon {
+    margin-top: 5px; 
+  }
+  .icon svg{
+    color: rgb(8, 224, 152);
+  }
+  
+  /* Add icon content or styling as needed */
+  
